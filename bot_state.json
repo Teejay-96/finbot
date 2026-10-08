@@ -23,18 +23,6 @@
    "notional_usd": 5.65,
    "leverage": 3,
    "opened_at": "2026-08-22T18:11:36.369658+00:00"
-  },
-  {
-   "strat": "donchian_daily",
-   "symbol": "SOLUSDT",
-   "entry": 118.9,
-   "sl": 109.65,
-   "tp": 146.65,
-   "exit_sma": 104.026,
-   "risk_frac": 0.07779646761984861,
-   "notional_usd": 7.3,
-   "leverage": 3,
-   "opened_at": "2026-09-22T01:02:09.904612+00:00"
   }
  ],
  "trades": [
@@ -69,6 +57,21 @@
    "closed_at": 1791391500000,
    "reason": "breakeven",
    "gross_inr": 0
+  },
+  {
+   "strat": "donchian_daily",
+   "symbol": "SOLUSDT",
+   "entry": 118.9,
+   "sl": 109.65,
+   "tp": 146.65,
+   "exit_sma": 104.026,
+   "risk_frac": 0.07779646761984861,
+   "notional_usd": 7.3,
+   "leverage": 3,
+   "opened_at": "2026-09-22T01:02:09.904612+00:00",
+   "closed_at": 1791417600000,
+   "reason": "stop",
+   "gross_inr": -50.0
   }
  ],
  "attempts": 0,
