@@ -1,18 +1,5 @@
 {
- "positions": [
-  {
-   "strat": "donchian_daily",
-   "symbol": "BTCUSDT",
-   "entry": 78338.03,
-   "sl": 72905.65,
-   "tp": 94635.17,
-   "exit_sma": 65424.935,
-   "risk_frac": 0.06934537414331202,
-   "notional_usd": 8.19,
-   "leverage": 3,
-   "opened_at": "2026-08-22T18:11:35.686373+00:00"
-  }
- ],
+ "positions": [],
  "trades": [
   {
    "strat": "donchian_daily",
@@ -73,6 +60,21 @@
    "leverage": 3,
    "opened_at": "2026-08-22T18:11:36.369658+00:00",
    "closed_at": 1793232000000,
+   "reason": "stop",
+   "gross_inr": -50.0
+  },
+  {
+   "strat": "donchian_daily",
+   "symbol": "BTCUSDT",
+   "entry": 78338.03,
+   "sl": 72905.65,
+   "tp": 94635.17,
+   "exit_sma": 65424.935,
+   "risk_frac": 0.06934537414331202,
+   "notional_usd": 8.19,
+   "leverage": 3,
+   "opened_at": "2026-08-22T18:11:35.686373+00:00",
+   "closed_at": 1794268800000,
    "reason": "stop",
    "gross_inr": -50.0
   }
